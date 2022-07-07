@@ -83,7 +83,7 @@ height: 70vh;
   margin-top: 7%;
   text-align: center;
   justify-content: space-between;
-  margin-left: 350px;
+  margin: 0 auto;
 }
 .box-col {
   background-color: rgb(208, 207, 211);
