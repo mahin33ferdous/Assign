@@ -1,0 +1,302 @@
+
+body {
+
+  font-family: 'Raleway', sans-serif;
+}
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.header{
+height: 70vh;
+  width: 100%;
+  background-image: url('images/donation6.jpg');
+  opacity: .8;
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  
+  position: relative;
+  
+  }
+.hh1{
+  margin-bottom: 10px;
+  font-size: 35px;
+  font-weight: 900px;
+}
+.pp1{
+  
+  margin-bottom: 10px;
+  font-weight: 900px;
+  
+}
+
+.content {
+    width: 100%;
+    display: block;
+    position: absolute;
+    margin: 100px;
+    top: 20%;
+    text-align: center;
+    color: rgb(239, 238, 247);
+}
+
+
+.btn1 {
+   
+    background-image: linear-gradient(navy,skyblue);
+    padding: 20px 40px;
+    color: white;
+    font-weight: 800;
+    border-radius: 7px;
+    
+}
+
+.donateToday{
+
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.hh{
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.pp{
+  display: inline;
+  color: dimgray;
+  font-size: 20px;
+  font-family: Georgia;
+  line-height: 1.8;
+  font-weight: 300;
+  padding: 10px;
+  line-height: 10px;
+  margin-bottom: 30px;
+
+}
+.box {
+  display: flex;
+  width: 900px;
+  margin-top: 7%;
+  text-align: center;
+  justify-content: space-between;
+  margin-left: 350px;
+}
+.box-col {
+  background-color: rgb(208, 207, 211);
+  opacity: .8;
+
+  border-radius: 5px;
+  margin-bottom: 7%;
+  margin-left: 5%;
+  width: 100px;
+  height: 50px;
+
+  
+  box-sizing: content-box;
+  border: solid dimgray 1px;
+  padding-top: 50px;
+  
+  
+}
+
+#box3{
+  background-color: rgb(116, 92, 47);
+  border: solid rgb(74, 197, 17) 1px;
+}
+
+#othertaka {
+  display: block;
+  margin-left: 900px;
+  height: 10px;
+  
+}
+
+#amount {
+
+  overflow: visible;
+  width: 60%;
+  text-align: center;
+  box-shadow: none;
+  font-weight: 300;
+  border: none;
+  border-bottom: 1px solid blue;
+  font-size: 15px;
+  margin-bottom: 30px;
+  margin-left: 400px;
+  padding: 5px;
+
+
+}
+
+.box2 {
+
+  display: flex;
+  width: 900px;
+  margin-top: 7%;
+ 
+  
+  margin-left: 350px;
+}
+
+.box2-col {
+  position: relative;
+  display: inline;
+  flex-direction : coloumn;
+  align-items : center;
+  text-align: justify;
+  white-space: nowarp;
+  overflow : hidden;
+  text-overflow: ellipsis;
+	width : 350px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 7%;
+  margin-left: 5%;
+  width: 300px;
+  height: 200px;
+
+  
+  box-sizing: content-box;
+  border: none;
+  padding-top: 50px;
+  
+  
+}
+.box2-col img{
+	
+	width : 40px;
+	height: 40px;
+	position: relative;
+  text-align: left;
+	left : 5%;
+  margin-top: 0%;
+	justify-content : space-around;
+	
+	 
+}
+.box2-col h4{
+  margin: 5%;
+}
+.box2-col p{
+
+  margin: 5%;
+}
+#plan1{
+  background-color: rgb(211, 240, 240);
+}
+
+#plan2{
+  background-color: rgb(175, 185, 157);
+}
+
+#plan3{
+  background-color: rgb(199, 186, 165);
+}
+
+.p3{
+  position: relative;
+  display: inline-block;
+ 
+  height: auto;
+  overflow-wrap: break-word;
+}
+#pic {
+	display: flex;
+}
+#pic img {
+  margin-right: 5%;
+  margin-bottom: 5%;
+	 width : 575px;
+	 height: 400px;
+}
+#intro { 
+  display: flex;
+flex-direction: column;
+text-align : justify;
+padding: 10px;
+
+}
+#intro h2 {
+font-size : 2rem;
+margin-bottom: 20px;
+}
+.btn2 {
+   
+  background-image: linear-gradient(rgb(150, 67, 11),rgb(158, 19, 42));
+  padding: 20px 40px;
+  margin-top: 5%;
+  margin-bottom: 5% ;
+  color: white;
+  font-weight: 800;
+  border-radius: 7px;
+  
+}
+
+.box22 {
+
+  display: flex;
+  width: 900px;
+  height: 50px;
+  margin-top: 7%;
+  background-color: rgb(109, 184, 184);
+ 
+  
+  margin-left: 350px;
+  margin-bottom: 5%;
+}
+.form {
+  height: 200px;
+  width: 900px;
+  background-color: rgb(209, 191, 140);
+	box-sizing:border-box;
+	align-items: center;
+	margin-bottom: 5%;
+  margin-left: 400px;
+  margin-top: 5%;
+}
+.input {
+	padding: 10px;
+	margin-top: 100px;
+  margin-left: 0%;
+	width: 30%;
+  color: rgb(22, 3, 3);
+  background-color: rgb(116, 142, 150);
+  opacity: 0.8;
+	border: none;
+	outline: none;
+}
+#send {
+  padding: 10px;
+	margin-top: 100px;
+  margin-left: 0%;
+	width: 10%;
+  background-color: rgb(194, 93, 53);
+}
+
+.footer {
+  position: relative ;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(1, 1, 8);
+   bottom: 0%;
+   margin-left: 0%;
+  text-align: center;
+  padding-top: 40px;
+ 
+}
+
+#fh{
+  color: indianred;
+  font-family: 'Trebuchet MS';
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+#fp{
+  color: rgb(247, 240, 240);
+  font-size: 10px;
+}
+
